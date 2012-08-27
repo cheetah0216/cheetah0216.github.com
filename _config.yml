@@ -11,15 +11,22 @@ topbar:
   #- 
   #  url : '/footmark/index.html'
   #  title : 'Footmark'
-  - 
-    url : '/develop/index.html'
-    title : '技术之旅'
+
+  #- 
+  #  url : '/develop/index.html'
+  # title : '技术之旅'
+  #-
+  #  url : '/itnews/index.html'
+  #  title : '科技潮流'
+  #-
+  #  url : '/open/index.html'
+  #  title : '开源项目'
   -
-    url : '/itnews/index.html'
-    title : '科技潮流'
+    url : '/technology/index.html'
+    tital : '技术系列'
   -
-    url : '/open/index.html'
-    title : '开源项目'
+    url : '/self-management/index.html'
+    tital : '自我管理'
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
