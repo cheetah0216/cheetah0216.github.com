@@ -23,10 +23,10 @@ topbar:
   #  title : '开源项目'
   -
     url : '/technology/index.html'
-    title : '技术系列'
+    tital : '技术系列'
   -
     url : '/self-management/index.html'
-    title : '自我管理'
+    tital : '自我管理'
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
