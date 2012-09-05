@@ -4,7 +4,7 @@ title: "Linux基础命令大全"
 category: linux
 tags: [linux]
 description: |
-  Linux基础命令一览。
+  Linux基础命令一览： 进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。
 ---
 {% include JB/setup %}
 
