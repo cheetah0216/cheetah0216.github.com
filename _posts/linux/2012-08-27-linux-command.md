@@ -299,7 +299,7 @@ md5sum 计算与检查MD5值
 sum 计算文件的校验和与区块数  
 tmpwatch 删除临时文件  
 
-#图像影音字体
+##图像影音字体
 gemtopbm 图像转换  
 giftopnm 图像转换  
 lisppmtopgm 图像转换  
