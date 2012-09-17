@@ -8,10 +8,10 @@ description: |
 ---
 {% include JB/setup %}
 
-##头文件  
+#头文件  
 每一个 `.cc` 文件都有一个对应的 `.h` 文件.也有一些常见例外, 如单元测试代码和只包含 `main()` 函数的 `.cc` 文件.  
 
-###define 保护
+##define 保护
 命名格式当是: `<PROJECT>_<PATH>_<FILE>_H_`.  
 例如, 项目 `foo` 中的头文件 `foo/src/bar/baz.h` 可按如下方式保护:  
 {% highlight cpp %}  
@@ -20,3 +20,5 @@ description: |
     …  
     #endif // FOO_BAR_BAZ_H_  
 {% endhighlight %}
+
+##头文件依赖
