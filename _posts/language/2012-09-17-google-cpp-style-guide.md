@@ -22,7 +22,7 @@ description: |
 {% endhighlight %}
 
 ###test1  
-{% highlight C %}  
+{% highlight java %}  
     #include <iostream>
     using namespace std;
     
