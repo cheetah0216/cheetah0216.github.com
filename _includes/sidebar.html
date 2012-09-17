@@ -9,6 +9,17 @@
 
 </div>
 
+{% if page.categories contains "language" %}
+
+<div id="sidebar" class="sidebar">
+  <h4>language</h4>
+  <ul>
+    {% assign pages_list = site.categories.language %}
+    {% include custom/pages_list_reversed %}
+  </ul>
+
+</div>
+
 {% elsif page.categories contains "tools" %}
 
 <div id="sidebar" class="sidebar">
