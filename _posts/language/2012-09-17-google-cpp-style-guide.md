@@ -21,6 +21,7 @@ description: |
     #endif // FOO_BAR_BAZ_H_  
 {% endhighlight %}
 
+###test1  
 {% highlight C++ %}  
     #include <iostream>
     using namespace std;
@@ -32,6 +33,7 @@ description: |
     }
 {% endhighlight %}
 
+###test2  
 <code>
     #include <iostream>
     using namespace std;
