@@ -20,3 +20,25 @@ description: |
     …  
     #endif // FOO_BAR_BAZ_H_  
 {% endhighlight %}
+
+{% highlight C++ %}  
+    #include <iostream>
+    using namespace std;
+    
+    int main()
+    {
+      cout << "HelloWord";
+      return 0;
+    }
+{% endhighlight %}
+
+<code>
+    #include <iostream>
+    using namespace std;
+    
+    int main()
+    {
+      cout << "HelloWord";
+      return 0;
+    }
+</code>
