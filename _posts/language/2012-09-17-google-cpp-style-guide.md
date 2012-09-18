@@ -14,8 +14,8 @@ description: |
 
 ###define 保护
 **命名格式当是: `<PROJECT>_<PATH>_<FILE>_H_`.**  
-例如, 项目 `foo` 中的头文件 `foo/src/bar/baz.h` 可按如下方式保护:  
-{% highlight cpp %}  
+例如, 项目 `foo` 中的头文件 `foo/src/bar/baz.h` 可按如下方式保护:
+{% highlight cpp %}
     #ifndef FOO_BAR_BAZ_H_  
     #define FOO_BAR_BAZ_H_  
     …  
