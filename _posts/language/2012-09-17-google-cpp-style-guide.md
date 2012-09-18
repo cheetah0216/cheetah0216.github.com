@@ -4,11 +4,11 @@ title: "Google C++ Style Guide"
 category: language 
 tags: [C++]
 description: |
-  [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml) 学习笔记. 
-  [Windows下的Git](http://msysgit.github.com/)
+  Google C++ Style Guide 学习笔记. 
 ---
 {% include JB/setup %}
 
+[Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). 
 ##头文件  
 **每一个 `.cc` 文件都有一个对应的 `.h` 文件.也有一些常见例外, 如单元测试代码和只包含 `main()` 函数的 `.cc` 文件.**    
 
@@ -33,6 +33,7 @@ description: |
 - 可以将静态数据成员类型声明为`Foo`.  
 - **test**  
 [Windows下的Git](http://msysgit.github.com/)
+- **Git**
 
 ###inline函数
 **只有当函数只有 10 行甚至更少时才将其定义为内联函数.**
