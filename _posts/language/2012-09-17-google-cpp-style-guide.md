@@ -8,7 +8,7 @@ description: |
 ---
 {% include JB/setup %}
 
-[Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). 
+原文档[Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml). 
 ##头文件  
 **每一个 `.cc` 文件都有一个对应的 `.h` 文件.也有一些常见例外, 如单元测试代码和只包含 `main()` 函数的 `.cc` 文件.**    
 
@@ -31,9 +31,6 @@ description: |
 - 可以将函数的参数/返回值声明(不是定义)为`Foo`类型.(有一个例外是:如果`Foo`或者`Foo&`的参数有`non-explicit`, `one argument construcor`,这个
 时候需要完整的定义去支持自动类型转换).    
 - 可以将静态数据成员类型声明为`Foo`.  
-- **test**  
-[Windows下的Git](http://msysgit.github.com/)
-- **Git**
 
 ###inline函数
 **只有当函数只有 10 行甚至更少时才将其定义为内联函数.**
