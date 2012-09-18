@@ -5,6 +5,7 @@ category: language
 tags: [C++]
 description: |
   [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml) 学习笔记. 
+  [Windows下的Git](http://msysgit.github.com/)
 ---
 {% include JB/setup %}
 
@@ -27,8 +28,8 @@ description: |
 **什么时候使用前置声明？**  
 如果头文件中使用类`Foo`,但是并不需要访问类`Foo`的声明,这是可以用前置声明`class Foo`代替`#include`,包含一下几种情况.   
 - 可以将数据成员类型声明为`Foo&` 或 `Foo*`.  
-- 可以将函数的参数/返回值声明(不是定义)为`Foo`类型.(有一个例外是:如果`Foo`或者`Foo&`的参数有`non-explicit`, `one argument construcor`,这个时候需要完整
-    的定义去支持自动类型转换).    
+- 可以将函数的参数/返回值声明(不是定义)为`Foo`类型.(有一个例外是:如果`Foo`或者`Foo&`的参数有`non-explicit`, `one argument construcor`,这个
+时候需要完整的定义去支持自动类型转换).    
 - 可以将静态数据成员类型声明为`Foo`.  
 
 ###inline函数
