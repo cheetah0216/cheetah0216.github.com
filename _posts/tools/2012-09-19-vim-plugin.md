@@ -4,7 +4,7 @@ title: "Vim Plugin"
 category: tools 
 tags: [vim]
 description: |
-  自己用的一些Vim Plugin. 
+  Vim Plugin. 
 ---
 {% include JB/setup %}
 
