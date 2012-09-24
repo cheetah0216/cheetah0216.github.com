@@ -188,6 +188,9 @@ uustat 显示uucp当前的状态
 uuto 将文件传送至远程的uucp主机  
 uux 在远程的uucp主机上执行命令  
 
+##加密解密编码
+base64 将文本转换成base64格式,简单加密.
+
 ##帮助相关
 help 显示shell内建命令的说明    
 info 显示说明 ？    
