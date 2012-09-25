@@ -18,7 +18,14 @@ title: "技术文档 &amp; 学习笔记"
   {% include custom/pages_reversed %}
 </ul>
 
-## 3 - 工具
+## 3- 算法
+
+<ul class="thumbnails">
+  {% assign pages_icons = site.categories.algorithm%}
+  {% include custom/pages_reversed %}
+</ul>
+
+## 4 - 工具
 
 <ul class="thumbnails">
   {% assign pages_icons = site.categories.tools%}

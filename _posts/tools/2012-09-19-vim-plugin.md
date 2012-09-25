@@ -31,7 +31,7 @@ description: |
 输入部分的文件名，找到符合条件的工程中的文件.  
 [snipMate](http://www.vim.org/scripts/script.php?script_id=2882)  
 提供快速生成代码段的功能.  
-[markdown](http://www.vim.org/scripts/script.php?script_id=2882)
+[markdown](http://www.vim.org/scripts/script.php?script_id=2882)  
 MarkDown语法高亮.  
 [NERD_commenter](http://www.vim.org/scripts/script.php?script_id=1218)  
 提供快速注释/反注释代码块的功能.  
