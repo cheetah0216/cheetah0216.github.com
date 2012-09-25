@@ -20,6 +20,17 @@
 
 </div>
 
+{% elsif page.categories contains "algorithm" %}
+
+<div id="sidebar" class="sidebar">
+  <h4>算法</h4>
+  <ul>
+    {% assign pages_list = site.categories.tools %}
+    {% include custom/pages_list_reversed %}
+  </ul>
+
+</div>
+
 {% elsif page.categories contains "tools" %}
 
 <div id="sidebar" class="sidebar">
@@ -30,5 +41,4 @@
   </ul>
 
 </div>
-
 {% endif %}
