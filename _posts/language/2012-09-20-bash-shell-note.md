@@ -10,7 +10,7 @@ description: |
 
 [Bash shell](http://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 
-##bash 实例
+##bash实例-字符串操作
 ###得到字符串长度
 {% highlight bash %}
     RPMName=$1
@@ -27,6 +27,7 @@ description: |
     DEBName=$TEMP".deb"
 {% endhighlight %}
 
+##bash实例-awk，cut，sed，grep
 ###得到最新文件名
 {% highlight bash %}
     #ls -lrt 时间从从旧到新排列
@@ -44,7 +45,14 @@ description: |
     ifconfig | grep 'inet 地址:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $1}'
 {% endhighlight %}
 
-###数组
+###读取文件的某一行
+{% highlight bash %}
+    #-n 取消默认输出
+    #1p,输出第一行
+    sed -n `1p` ~/file
+{% endhighlight %}
+
+##bash实例-数组,for循环
 ###for循环
 {% highlight bash %}
     names=( Jennifer Tonya Anna Sadie )
@@ -72,8 +80,4 @@ description: |
     "将str按照','切分成一个数组，并遍历之。
     "当然，这里分隔符可以是一个子串。
 {% endhighlight %}
-
-##字符串操作
-##数组操作
-
 
