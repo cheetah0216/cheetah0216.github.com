@@ -27,6 +27,24 @@ description: |
     DEBName=$TEMP".deb"
 {% endhighlight %}
 
+###得到文件名
+{% highlight bash %}
+    test="/home/usr/bash/test.c"
+    ${test##^/} (将^替换)^-->*
+
+    result:
+    test.c
+{% endhighlight %}
+
+###得到目录地址
+{% highlight bash %}
+   test="/home/usr/bash/test.c"
+   ${test%/^} (将^替换)^-->*
+
+   result:
+   /home/usr/bash
+{% endhighlight %}
+
 ##bash实例-awk，cut，sed，grep
 ###得到最新文件名
 {% highlight bash %}
@@ -50,6 +68,11 @@ description: |
     #-n 取消默认输出
     #1p,输出第一行
     sed -n `1p` ~/file
+{% endhighlight %}
+
+###大小写替换
+{% highlight bash %}
+    echo "ABcd" | tr A-Z a-z
 {% endhighlight %}
 
 ##bash实例-数组,for循环
