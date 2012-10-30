@@ -52,6 +52,34 @@ description: |
    /home/usr/bash
 {% endhighlight %}
 
+###得到文件类型/后缀名
+{% highlight bash %}
+    filename="/home/test/temp.cpp"
+    echo ${filename##^.} (将^替换)^-->*
+    
+    result: 
+    cpp
+{% endhighlight %}
+
+###bash 前后缀操作
+{% highlight bash %}
+    filename="/home/test/temp.foo.tar.gzip"
+    echo ${filename##^.} 
+    echo ${filename#^.} 
+    echo ${filename%%.^}
+    echo ${filename%.^}
+    (将^替换)^-->*
+{% endhighlight %}
+
+###遍历给定目录下的所有文件(不支持递归)
+{% highlight bash %}
+    readpath="/home/liufei/test"  
+    for file in $readpath/*  
+    do  
+       echo "$file"  
+    done  
+{% endhighlight %}
+
 ##bash实例-awk，cut，sed，grep
 ###得到最新文件名
 {% highlight bash %}
@@ -123,4 +151,22 @@ description: |
     # $* ：和$@相同，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组。
 {% endhighlight %}
 
+##bash变量
+###bash bulid-in 变量
+{% highlight bash %}
+    $0           当前shell程序的名字
+    $1 ~ $9      命令行上的第一到第九个参数
+    $#           命令行上的参数个数
+    $*           命令行上的所有参数
+    $@           分别用双引号引用命令行上的所有参数
+    $$           当前进程的进程标识号(PID)
+    $?           上一条命令的退出状态
+    $!           最后一个后台进程的进程标识号
+{% endhighlight %}
+
+###bash 输入变量
+{% highlight bash %}
+    read -p "Enter your name:" name
+    echo "Hello $name, Welcome to my blog!"
+{% endhighlight %}
 
