@@ -17,6 +17,23 @@ description: |
     echo "TEMPFILE"
 {% endhighlight %}
 
+###"&&","||"技巧
+{% highlight bash %}
+    #--> [ $# -ne 2 ] && echo "swap: 2 arguments needed" && return 1
+{% endhighlight %}
+
+###bash算术运算('let')
+{% highlight bash %}
+    num1=1
+    num2=2
+    result1=0
+    result2=0
+    let result1=num1+num2
+    result2=num1+num2
+    echo $result1
+    echo $result2
+{% endhighlight %}
+
 ##bash实例-字符串操作
 ###得到字符串长度
 {% highlight bash %}
@@ -126,6 +143,23 @@ description: |
     done
 {% endhighlight %}
 
+###for循环(positional parameters)
+{% highlight bash %}
+    $ cat for1.sh
+    i=1
+    for day
+    do
+     echo "Weekday $((i++)) : $day"
+    done
+
+    $ ./for1.sh Mon Tue Wed Thu Fri
+    Weekday 1 : Mon
+    Weekday 2 : Tue
+    Weekday 3 : Wed
+    Weekday 4 : Thu
+    Weekday 5 : Fri
+{% endhighlight %}
+
 ###bash中将字符串split成数组
 {% highlight bash %}
     str="hello,world,i,like,you,babalala" 
@@ -139,16 +173,32 @@ description: |
     "当然，这里分隔符可以是一个子串。
 {% endhighlight %}
 
-##bash参数
+##bash Positional Parameters
+###Set/Unset Bash Positional Parameters
 {% highlight bash %}
-    ./test.sh -f config.conf -v --prefix=/home
-    # $0 ： ./test.sh,即命令本身，相当于C/C++中的argv[0]
-    # $1 ： -f,第一个参数.
-    # $2 ： config.conf
-    # $3, $4 ... ：类推。
-    # $# :参数的个数，不包括命令本身，上例中$#为4.
-    # $@ ：参数本身的列表，也不包括命令本身，如上例为 -f config.conf -v --prefix=/home
-    # $* ：和$@相同，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组。
+    # From command line
+    echo -e "Basename=$0"
+    echo -e  "\$1=$1"
+    echo -e "\$2=$2"
+    echo -e "\$3=$3"
+
+   # From Set builtin
+    set First Second Third
+    echo -e  "\$1=$1"
+    echo -e "\$2=$2"
+    echo -e "\$3=$3"
+
+    # Store positional parameters with -(hyphen)
+    set - -f -s -t
+    echo -e  "\$1=$1"
+    echo -e "\$2=$2"
+    echo -e "\$3=$3"
+
+    # Unset positional parameter
+    set --
+    echo -e  "\$1=$1"
+    echo -e "\$2=$2"
+    echo -e "\$3=$3"
 {% endhighlight %}
 
 ##bash变量
@@ -162,6 +212,15 @@ description: |
     $$           当前进程的进程标识号(PID)
     $?           上一条命令的退出状态
     $!           最后一个后台进程的进程标识号
+
+    ./test.sh -f config.conf -v --prefix=/home
+    # $0 ： ./test.sh,即命令本身，相当于C/C++中的argv[0]
+    # $1 ： -f,第一个参数.
+    # $2 ： config.conf
+    # $3, $4 ... ：类推。
+    # $# :参数的个数，不包括命令本身，上例中$#为4.
+    # $@ ：参数本身的列表，也不包括命令本身，如上例为 -f config.conf -v --prefix=/home
+    # $* ：和$@相同，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组。
 {% endhighlight %}
 
 ###bash 输入变量
