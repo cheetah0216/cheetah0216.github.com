@@ -34,6 +34,13 @@ description: |
     echo $result2
 {% endhighlight %}
 
+###开机启动自定义脚本
+{% highlight bash %}
+    vim /etc/init.d/rc.local
+    添加自己的脚本即可
+    . /home/liufei/auto.sh
+{% endhighlight %}
+
 ##bash实例-字符串操作
 ###得到字符串长度
 {% highlight bash %}
@@ -173,7 +180,7 @@ description: |
     "当然，这里分隔符可以是一个子串。
 {% endhighlight %}
 
-##bash Positional Parameters
+##bash Parameters
 ###Set/Unset Bash Positional Parameters
 {% highlight bash %}
     # From command line
