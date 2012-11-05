@@ -8,19 +8,6 @@ markdown: rdiscount
 pygments: true
 
 topbar:
-  #- 
-  #  url : '/footmark/index.html'
-  #  title : 'Footmark'
-
-  #- 
-  #  url : '/develop/index.html'
-  # title : '技术之旅'
-  #-
-  #  url : '/itnews/index.html'
-  #  title : '科技潮流'
-  #-
-  #  url : '/open/index.html'
-  #  title : '开源项目'
   -
     url : '/technology/index.html'
     title : '技术系列'
@@ -47,7 +34,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://cheetah0216.github.com
+production_url : http://liufei.name
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
