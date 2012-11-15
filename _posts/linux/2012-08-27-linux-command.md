@@ -8,15 +8,20 @@ description: |
 ---
 {% include JB/setup %}
 
+[Linux基础命令大全](http://liufei.name/linux/linux-command.html)
+
 ##进程相关
+`&` 后台执行程序,用在一个命令的最后  
+Ctrl+z 将一个正在执行的命令放到后台,并且暂停  
+bg 将一个在后台暂停的命令,变成继续执行  
+fg 把命令或者程序切换至前台执行(如果后台中有多个命令，可以用 fg %jobnumber将选中的命令调出，%jobnumber是通过jobs命令查到的后台正在执行的命令的序号(不是pid))  
+jobs 显示正在后台执行发个工作  
+
 at 在指定的时间执行命令  
 crontab 设置计时器，在特定时间执行默认的命令和程序  
 atq 现实待执行的工作  
 atrm 删除待执行的工作  
 swatch 系统监控程序  
-bg 把程序放到后台执行  
-fg 把命令或者程序切换至前台执行  
-jobs 显示正在后台执行发个工作  
 nohup 退出系统后继续后台执行程序  
 ps 进程  
 pstree 以树装图显示程序  
