@@ -134,6 +134,11 @@ description: |
     echo "ABcd" | tr A-Z a-z
 {% endhighlight %}
 
+###文本中查找字符串"cdr"
+{% highlight bash %}
+    ls | xargs grep -n cdr
+{% endhighlight %}
+
 ##bash实例-数组,for循环
 ###for循环
 {% highlight bash %}
