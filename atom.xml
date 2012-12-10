@@ -15,21 +15,11 @@ layout: nil
    <email>flying0216@gmail.com</email>
  </author>
 
-{% assign posts_all = site.posts %}
-{% if site.JB.posts_all.provider == "custom" %}
-  {% include custom/posts_all %}
-{% else %}
-  {% for post in posts_all %}
-  
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ BASE_PATH }}{{ post.url }}"/>h
-   <updated>{{ post.date }}</updated>
-   <content type="html">{{ post.description }}</content>
+  <entry>
+   <title>Linux基础命令大全</title>
+   <link href="http://liufei.name/linux/linux-command.html"/>
+   <description>Linux基础命令一览： 进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。<description>
  </entry>
-  {% endfor %}
-{% endif %}
-{% assign posts_all = nil %}
 
 </feed>
 
