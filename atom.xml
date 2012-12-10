@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="2.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>liufei</title>
@@ -13,7 +13,7 @@
   <entry>
    <title>Linux基础命令大全</title>
    <link href="http://liufei.name/linux/linux-command.html"/>
-   <description>Linux基础命令一览： 进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。</description>
+   <description>Linux基础命令一览：进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。</description>
  </entry>
 
 </feed>
