@@ -1,20 +1,16 @@
-<?xml version="2.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>liufei</title>
- <link href="http://liufei.name/atom.xml" rel="self"/>
- <link href="http://lifuei.name"/>
- <id>http://liufei.name</id>
- <author>
-   <name>liufei</name>
-   <email>flying0216@gmail.com</email>
- </author>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
 
-  <entry>
-   <title>Linux基础命令大全</title>
-   <link href="http://liufei.name/linux/linux-command.html"/>
-   <description>Linux基础命令一览：进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。</description>
- </entry>
+<channel>
+  <title>liufei</title>
+  <link>http://lifuei.name</link>
+  <description>Growth that Starts from Thinking.</description>
+  <item>
+    <title>Linux基础命令大全</title>
+    <link>>http://liufei.name/linux/linux-command.html</link>
+    <description>Linux基础命令一览：进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令.</description>
+  </item>
+</channel>
 
-</feed>
+</rss>
 
