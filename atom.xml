@@ -4,7 +4,6 @@
  <title>liufei</title>
  <link href="http://liufei.name/atom.xml" rel="self"/>
  <link href="http://lifuei.name"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://liufei.name</id>
  <author>
    <name>liufei</name>
