@@ -13,11 +13,12 @@ layout: nil
    <name>liufei</name>
    <email>flying0216@gmail.com</email>
  </author>
-
+ 
+ {% include custom/posts_all %}
  {% for post in posts_all %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://liufei.name{{ post.url }}"/>
+   <link href="{{ BASE_PATH }}{{post.url}}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://liufei.name{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
