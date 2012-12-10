@@ -50,7 +50,7 @@ export 设置或显示环境变量
 halt 关闭系统  
 shutdown 关机  
 reboot 重启  
-uname 显示系统信息
+uname -a 显示系统信息  
 procinfo 显示系统状态  
 free 查看内存状态  
 finger 查找并显示用户信息 

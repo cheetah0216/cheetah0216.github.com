@@ -14,6 +14,9 @@ topbar:
   -
     url : '/self-management/index.html'
     title : '自我管理'
+  -
+    url : 'atom.xml'
+    title : 'RSS'
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
