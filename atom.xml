@@ -1,6 +1,7 @@
 ---
 layout: nil
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
@@ -13,14 +14,22 @@ layout: nil
    <name>liufei</name>
    <email>flying0216@gmail.com</email>
  </author>
- 
- {% include custom/posts_all %}
- {% for post in posts_all %}
+
+{% assign posts_all = site.posts %}
+{% if site.JB.posts_all.provider == "custom" %}
+  {% include custom/posts_all %}
+{% else %}
+  {% for post in posts_all %}
+  
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ BASE_PATH }}{{post.url}}"/>
-   <content type="html">{{ post.title }}</content>
+   <link href="{{ BASE_PATH }}{{ post.url }}"/>h
+   <updated>{{ post.date }}</updated>
+   <content type="html">{{ post.description }}</content>
  </entry>
- {% endfor %}
- 
+  {% endfor %}
+{% endif %}
+{% assign posts_all = nil %}
+
 </feed>
+
