@@ -4,7 +4,7 @@ title: "实例学Bash Shell"
 category: language 
 tags: [shell]
 description: |
-  Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh). Released in 1989,it has been distributed widely as the shell for the GNU operating system and as the default shell on Linux and Mac OS X. It has been ported to Microsoft Windows and distributed with Cygwin and MinGW, to DOS by the DJGPP project, to Novell NetWare and to Android via various terminal emulation applications.
+  Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh).
 ---
 {% include JB/setup %}
 

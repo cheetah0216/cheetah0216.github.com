@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "python 学习笔记"
+title: "实例学python"
 category: language 
 tags: [python]
 description: |
-  Python is a general-purpose, interpreted high-level programming language[11] whose design philosophy emphasizes code readability. Its syntax is said to be clear and expressive.Python has a large and comprehensive standard library and more than 25 thousand extension modules. 
+  Python is a general-purpose, interpreted high-level programming language whose design philosophy emphasizes code readability.
 ---
 {% include JB/setup %}
 
