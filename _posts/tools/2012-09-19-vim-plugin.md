@@ -4,7 +4,7 @@ title: "Vim Plugin"
 category: tools 
 tags: [vim]
 description: |
-  备忘-记录自己常用的Vim Plugin. 
+  Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. Based on the vi editor common to Unix-like systems, Vim is designed for use both from a command line interface and as a standalone application in a graphical user interface. Vim is free and open source software and is released under a license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda.The license is compatible with the GNU General Public License. 
 ---
 {% include JB/setup %}
 

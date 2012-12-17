@@ -4,7 +4,7 @@ title: "Google C++ Style Guide"
 category: language 
 tags: [C++]
 description: |
-  Google C++ Style Guide 学习笔记. 
+  Google C++ Style Guide:   Header files,Scoping,Classes,Google-Specific Magic,Other C++ Features,Naming,Comments,Formatting,Exceptions to the Rules.
 ---
 {% include JB/setup %}
 

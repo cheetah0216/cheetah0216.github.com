@@ -4,7 +4,7 @@ title: "常用工具快捷键"
 category: tools 
 tags: [shortcut-key]
 description: |
-  Windows,Unix,Linux,Chrome...快捷键. 
+  Windows,Unix,Linux,Chrome,开发工具...快捷键. 
 ---
 {% include JB/setup %}
 

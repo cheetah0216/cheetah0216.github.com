@@ -3,11 +3,11 @@
 
 <channel>
   <title>liufei</title>
-  <link>http://lifuei.name</link>
+  <link>http://liufei.name</link>
   <description>Growth that Starts from Thinking.</description>
   <item>
     <title>Linux基础命令大全</title>
-    <link>>http://liufei.name/linux/linux-command.html</link>
+    <link>http://liufei.name/linux/linux-command.html</link>
     <description>Linux基础命令一览：进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令.</description>
   </item>
 </channel>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Bash Shell学习总结"
+title: "实例学Bash Shell"
 category: language 
 tags: [shell]
 description: |
-  Bash Shell 备忘. 
+  Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh). Released in 1989,it has been distributed widely as the shell for the GNU operating system and as the default shell on Linux and Mac OS X. It has been ported to Microsoft Windows and distributed with Cygwin and MinGW, to DOS by the DJGPP project, to Novell NetWare and to Android via various terminal emulation applications.
 ---
 {% include JB/setup %}
 
@@ -39,6 +39,11 @@ description: |
     vim /etc/init.d/rc.local
     添加自己的脚本即可
     . /home/liufei/auto.sh
+{% endhighlight %}
+
+###得到文件行数
+{% highlight bash %}
+    cat ~/fliename | wc -l
 {% endhighlight %}
 
 ##bash实例-字符串操作
@@ -139,7 +144,7 @@ description: |
     ls | xargs grep -n cdr
 {% endhighlight %}
 
-##bash实例-数组,for循环
+##bash实例-数组,循环
 ###for循环
 {% highlight bash %}
     names=( Jennifer Tonya Anna Sadie )
@@ -170,6 +175,16 @@ description: |
     Weekday 3 : Wed
     Weekday 4 : Thu
     Weekday 5 : Fri
+{% endhighlight %}
+
+###while循环
+{% highlight bash %}
+#  x=1
+#  while [ $x -le 5 ]
+#  do
+#    echo "Welcome $x times"
+#    x=$(( $x + 1 ))
+#  done
 {% endhighlight %}
 
 ###bash中将字符串split成数组
