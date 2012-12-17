@@ -5,11 +5,74 @@
   <title>liufei</title>
   <link>http://liufei.name</link>
   <description>Growth that Starts from Thinking.</description>
+
+  <item>
+    <title>编程之美笔记</title>
+    <link>http://liufei.name/algorithm/beauty-of-programming.html</link>
+    <description>  编程之美收集了约60道算法和程序设计题目。包括游戏之乐,数字之魅,结构之法,数学之趣。</description>
+  </item>
+
+  <item>
+    <title>Vim 常用操作总结</title>
+    <link>http://liufei.name/tools/vim-sheet.html</link>
+    <description>  Vim 常用操作总结: 跳转,编辑,统计,折叠,宏等.</description>
+  </item>
+
+  <item>
+    <title>Vim Plugin</title>
+    <link>http://liufei.name/tools/vim-plugin.html</link>
+    <description>  Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. Based on the vi editor common to Unix-like systems, Vim is designedfor use both from a command line interface and as a standalone application in a graphical user interface.</description>
+  </item>
+
+  <item>
+    <title>Git简明手册</title>
+    <link>http://liufei.name/tools/git-sheet.html</link>
+    <description>  Git是一个由林纳斯·托瓦兹为了更好地管理linux内核开发而创立的分布式版本控制／软件配置管理软件。如今已经超越CVS、SVN称为主流的版本控制器。许多著名的开源项目都用Git管理。</description>
+  </item>
+
+  <item>
+    <title>常用工具快捷键</title>
+    <link>http://liufei.name/tools/shortcut-key.html</link>
+    <description>  Windows,Unix,Linux,Chrome,开发工具...快捷键. </description>
+  </item>
+
   <item>
     <title>Linux基础命令大全</title>
     <link>http://liufei.name/linux/linux-command.html</link>
-    <description>Linux基础命令一览：进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令.</description>
+    <description>  Linux基础命令一览： 进程，时间，系统，文件文本，目录，shell，邮件，解压缩，网络，磁盘等命令。</description>
   </item>
+
+  <item>
+    <title>Google C++ Style Guide</title>
+    <link>http://liufei.name/language/google-cpp-style-guide.html</link>
+    <description>  Google C++ Style Guide翻译</description>
+  </item>
+
+  <item>
+    <title>实例学xml</title>
+    <link>http://liufei.name/language/xml-note.html</link>
+    <description>  Extensible Markup Language (XML) is a markup language created to structure, store, and transport data by defining a set of rules for encoding documents in a format that is both human-readable and machine-readable. </description>
+  </item>
+
+  <item>
+    <title>实例学Bash Shell</title>
+    <link>http://liufei.name/language/bash-shell-note.html</link>
+    <description>  Bash is a Unix shell written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell (sh).</description>
+  </item>
+
+  <item>
+    <title>实例学C++</title>
+    <link>http://liufei.name/language/cpp-note.html</link>
+    <description>  C++ is a statically typed, free-form, multi-paradigm, compiled, general-purpose programming language. </description>
+  </item>
+
+  <item>
+    <title>实例学python</title>
+    <link>http://liufei.name/language/python-note.html</link>
+    <description>  Python is a general-purpose, interpreted high-level programming language whose design philosophy emphasizes code readability.</description>
+  </item>
+
+
 </channel>
 
 </rss>
