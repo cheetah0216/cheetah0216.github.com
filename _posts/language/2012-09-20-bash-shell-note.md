@@ -134,6 +134,15 @@ description: |
     sed -n `1p` ~/file
 {% endhighlight %}
 
+###sed 在文件的指定行插入文本
+{% highlight bash %}
+    #在第五行以前插入字符串str1---str5
+    #-i 为直接操作文件
+    #sed 调用bash变量(temp,str1--str5),用""
+    temp="5i"
+    sed -i "$temp\\$Str1\n$Str2\n$Str3\n$Str4\n$Str5\n" $filename
+{% endhighlight %}
+
 ###大小写替换
 {% highlight bash %}
     echo "ABcd" | tr A-Z a-z

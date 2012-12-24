@@ -32,6 +32,9 @@ sleep 暂停执行命令
 top 显示管理执行中的程序  
 wait 等待程序回报其状态  
 
+`需安装`
+htop 比top更详细
+
 ##时间相关
 cal 现实月历  
 convdate 转换日期时间  
