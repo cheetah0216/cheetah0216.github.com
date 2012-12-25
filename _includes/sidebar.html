@@ -1,38 +1,31 @@
 {% if page.categories contains "linux" %}
-
 <div id="sidebar" class="sidebar">
   <h4>Linux基础</h4>
   <ul>
     {% assign pages_list = site.categories.linux %}
     {% include custom/pages_list_reversed %}
   </ul>
-
 </div>
 
 {% elsif page.categories contains "language" %}
-
 <div id="sidebar" class="sidebar">
   <h4>language</h4>
   <ul>
     {% assign pages_list = site.categories.language %}
     {% include custom/pages_list_reversed %}
   </ul>
-
 </div>
 
 {% elsif page.categories contains "algorithm" %}
-
 <div id="sidebar" class="sidebar">
   <h4>算法</h4>
   <ul>
     {% assign pages_list = site.categories.algorithm %}
     {% include custom/pages_list_reversed %}
   </ul>
-
 </div>
 
 {% elsif page.categories contains "tools" %}
-
 <div id="sidebar" class="sidebar">
   <h4>工具</h4>
   <ul>
@@ -40,6 +33,7 @@
     {% include custom/pages_list_reversed %}
   </ul>
 
+{% elsif page.categories contains "mind" %}
 <div id="sidebar" class="sidebar">
   <h4>mind百科</h4>
   <ul>
@@ -47,6 +41,7 @@
     {% include custom/pages_list_reversed %}
   </ul>
 
+{% elsif page.categories contains "english" %}
 <div id="sidebar" class="sidebar">
   <h4>基础英语</h4>
   <ul>
