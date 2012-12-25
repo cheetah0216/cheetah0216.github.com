@@ -15,6 +15,12 @@ topbar:
     url : '/self-management/index.html'
     title : '自我管理'
   -
+    url : '/thinking/index.html'
+    title : '思维思考'
+  -
+    url : '/english/index.html'
+    title : '英语学习'
+  -
     url : 'atom.xml'
     title : 'RSS'
 
