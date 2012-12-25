@@ -40,5 +40,19 @@
     {% include custom/pages_list_reversed %}
   </ul>
 
+<div id="sidebar" class="sidebar">
+  <h4>mind百科</h4>
+  <ul>
+    {% assign pages_list = site.categories.mind %}
+    {% include custom/pages_list_reversed %}
+  </ul>
+
+<div id="sidebar" class="sidebar">
+  <h4>基础英语</h4>
+  <ul>
+    {% assign pages_list = site.categories.english %}
+    {% include custom/pages_list_reversed %}
+  </ul>
+
 </div>
 {% endif %}
