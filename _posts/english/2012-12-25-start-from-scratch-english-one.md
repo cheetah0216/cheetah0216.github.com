@@ -16,7 +16,9 @@ Ba: B is for belief.
 Cc: C is for confidence.  
 Dd: D is for dreams.  
 Ee: E is for easy.  
-Ff:  F is for fun.  
+Ff: F is for fun.  
+Gg: G is for giving.  
+Hh: H is for happiness.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -24,6 +26,8 @@ you are what you believe.
 who has confidence in himself will gain confidence of others.  
 let's keep our dreams alive.  
 Take it easy and enjoy your life.  
+It is in giving that we recevice.  
+Happiness is nothing more than good health and a bad memory.  
 
 ##Sentence2
 Zip you lips.  
@@ -33,6 +37,13 @@ After you.
 May i walk you home?  
 cool it!  
 That's true  
+No way!  
+That's right.  
+All rise!  
+Enjoy yourself.  
+Speak out loud!  
+Watch out!  
+
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -53,3 +64,7 @@ I'm so nervous.
 It's too dirty.  
 knowledge is power.  
 Michael Jackson was my favourite singer.  
+Lady gaga is gaga about music.  
+What day is today?  
+Can I join the club?  
+
