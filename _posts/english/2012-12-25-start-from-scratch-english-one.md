@@ -8,6 +8,8 @@ description: |
 ---
 {% include JB/setup %}
 
+[基础英语1](http://liufei.name/english/start-from-scratch-english-one.html)
+
 ##Letters
 Aa: A is for attitude.  
 Ba: B is for belief.  

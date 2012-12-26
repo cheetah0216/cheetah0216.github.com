@@ -7,7 +7,7 @@ title: "Growth that Starts from Thinking."
 ## Mind百科 
 
 <ul class="thumbnails">
-  {% assign pages_icons = site.categories.mind%}
+  {% assign pages_icons = site.categories.mind %}
   {% include custom/pages_reversed %}
 </ul>
 
