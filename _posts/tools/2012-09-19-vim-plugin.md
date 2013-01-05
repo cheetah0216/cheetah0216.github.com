@@ -10,12 +10,11 @@ description: |
 
 [Vim](http://www.vim.org/).
 
-##Shortcut Key 
-###tags
+##tags shortcut-key
 **`CTRL-]`: 跳转到当前光标下的标签**  
 **`CTRL-T`: 跳到标签栈中较早的标签**  
 
-###cscope
+##cscope shortcut-key
 **`s:` 查找C语言符号，即查找函数名、宏、枚举值等出现的地方**  
 **`g:` 查找函数、宏、枚举等定义的位置，类似ctags所提供的功能**  
 **`d:` 查找本函数调用的函数**  
@@ -26,31 +25,31 @@ description: |
 **`i:` 查找包含本文件的文件**  
 **`<C-_ >g`的按法是先按`Ctrl+Shift+-`, 然后很快再按`s/g/d/c.....`**  
 
-###quickfix 
+##quickfix shortcut-key
 **`:cw`**  
 
-###书签
+##书签 shortcut-key
 **创建书签：`CTRL+F2`**  
 **正向切换：`F2`**  
 **反向切换：`SHIFT+F2`**  
 
-###高亮
+##高亮 shortcut-key
 **`,hl`: 高亮书签**  
 **`,hh`: 清除高亮书签**  
 **第一次用 `,#`  `,*` 上下搜索，以后直接用`*` `#`**  
 
-###折叠 
+##折叠 shortcut-key
 **`za`: 打开/关闭当前折叠**  
 **`zA`: 循环地打开/关闭当前折叠**  
 **`zM`: 关闭所有折叠**  
 **`zR`: 打开所有折叠**  
 
-###查找
+##查找 shortcut-key
 **`F5`: 全局查找`.h/.c/.java/..`文件**  
 **`F3`: 本文件查找**  
 **`F4`: 全局查找**  
 
-###补全
+##补全 shortcut-key
 **`Ctrl+X Ctrl+L` 整行补全**  
 **`Ctrl+X Ctrl+N` 根据当前文件里关键字补全**  
 **`Ctrl+X Ctrl+K` 根据字典补全**  
