@@ -153,6 +153,11 @@ description: |
     ls | xargs grep -n cdr
 {% endhighlight %}
 
+###查看动态日志文件
+{% highlight bash %}
+    tail -f filename
+{% endhighlight %}
+
 ##bash实例-数组,循环
 ###for循环
 {% highlight bash %}
