@@ -82,3 +82,136 @@ ordered lists:
 <p>Do you hear the people <strong>sing</strong>?</p>
 <p>I am <em>so</em> tired.</p>
 
+##8.
+{% highlight html %}
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr>
+                    <th>Famous Monster</th>
+                    <th>Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King Kong</td>
+                    <td>1933</td>     
+                </tr>
+                
+                <tr>
+                    <td>Dracula</td>
+                    <td>1897</td>
+                </tr>
+                
+                <tr>
+                    <td>Bride of Frankenstein</td>
+                    <td>1935</td>
+                </tr>
+            </tbody>
+        </table>
+{% endhighlight %}
+
+##9.
+{% highlight html %}
+    <html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;">Famous Monster</th>
+                    <th style="padding:5px;border-left:1px solid black;">Birth Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+{% endhighlight %}
+
+##10.
+{% highlight cpp %}
+   <html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<p><span style="color:red">This</span>This text is black, except for the word red!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ye Olde Fancye Booke</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<h3>Ye Olde Storye</h3>
+		<p><span>A</span> long time ago there was an intrepid young student who wanted to learn CSS...</p>
+	</body>
+</html>
+p {
+	font-family:Garamond;
+	font-size:16px;
+}
+
+h3 {
+	font-family:cursive;
+	color:#36648b;
+	text-align:center;
+}
+
+span {
+	color:#cc0000;
+	font-size:24px;
+} 
+{% endhighlight %}
+
+##11.
+CSS (which stands for Cascading Style Sheets) is a language used to describe the appearance and formatting of your HTML.
+
+##12.
+{% highlight html %}
+    <!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p {
+				color: purple;
+			}
+		</style>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>Check it out! I'm purple!</p>
+	</body>
+</html>
+{% endhighlight %}
+
