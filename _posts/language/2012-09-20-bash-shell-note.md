@@ -31,6 +31,11 @@ description: |
     cd $some_directory && rm *
 {% endhighlight %}
 
+###等待进程运行完毕
+{% highlight bash %}
+    wait PID  // man wait
+{% endhighlight %}
+
 ###bash算术运算('let')
 {% highlight bash %}
     num1=1
@@ -325,7 +330,8 @@ description: |
 ##bash Expansions
 ###parameter and variable expansion
 {% highlight bash %}
-    ##${1:-"Unknown Error"} means that if parameter 1 ($1) is undefined, substitute the string "Unknown Error" in its place.
+    ##${1:-"Unknown Error"} means that if parameter 1 ($1) is undefined, 
+    ##substitute the string "Unknown Error" in its place.
     function echo_error() {
         echo "$LINENO: ${1:-"Unknow Error"}" 1>&2
     }
@@ -335,7 +341,7 @@ description: |
 ##Errors and Signals and Traps
 {% highlight bash %}
     #!/bin/bash
-# 
+# !!!!!!!!
 # Program to print a text file with headers and footers
 # Usage: printfile file
 # Create a temporary file name that gives preference
