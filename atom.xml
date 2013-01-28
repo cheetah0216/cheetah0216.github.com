@@ -7,6 +7,24 @@
   <description>Growth that Starts from Thinking.</description>
 
   <item>
+    <title>title: 从零开始:基础英语1</title>
+    <link>http://liufei.name/english/start-from-scratch-english-one.html</link>
+    <description>  I want to see the world outside the walls. </description>
+  </item>
+
+  <item>
+    <title>title: English Quotes</title>
+    <link>http://liufei.name/english/english-quotes.html</link>
+    <description>  Other men live to eat, while I eat to live.--Socrates </description>
+  </item>
+
+  <item>
+    <title>title: mind百科</title>
+    <link>http://liufei.name/mind/mind-wiki.html</link>
+    <description>  Growth that Starts from Thinking. </description>
+  </item>
+
+  <item>
     <title>编程之美笔记</title>
     <link>http://liufei.name/algorithm/beauty-of-programming.html</link>
     <description>  编程之美收集了约60道算法和程序设计题目。包括游戏之乐,数字之魅,结构之法,数学之趣。</description>
@@ -49,6 +67,12 @@
   </item>
 
   <item>
+    <title>title: 实例学HTML&&CSS</title>
+    <link>http://liufei.name/language/html-css-note.html</link>
+    <description>  HyperText Markup Language (HTML) is the main markup language for displaying web pages and other information that can be displayed in a web browser. </description>
+  </item>
+
+  <item>
     <title>实例学xml</title>
     <link>http://liufei.name/language/xml-note.html</link>
     <description>  Extensible Markup Language (XML) is a markup language created to structure, store, and transport data by defining a set of rules for encoding documents in a format that is both human-readable and machine-readable. </description>
@@ -72,30 +96,6 @@
     <description>  Python is a general-purpose, interpreted high-level programming language whose design philosophy emphasizes code readability.</description>
   </item>
 
-
-  <item>
-    <title>从零开始:基础英语1</title>
-    <link>http://liufei.name/english/start-from-scratch-english-one.html</link>
-    <description>I want to see the world outside the walls</description>
-  <item>
-
-  <item>
-    <title>mind百科</title>
-    <link>http://liufei.name/mind/mind-wiki.html</link>
-    <description>Growth that Starts from Thinking.</description>
-  <item>
-
-  <item>
-    <title>English Quotes</title>
-    <link>http://liufei.name/english/english-quotes.html</link>
-    <description>Other men live to eat, while I eat to live.--Socrates</description>
-  <item>
-
-  <item>
-    <title>实例学HTML and CSS</title>
-    <link>http://liufei.name/language/html-css-note.html</link>
-    <description>HyperText Markup Language (HTML) is the main markup language for displaying web pages and other information that can be displayed in a web browser.</description>
-  <item>
 
 </channel>
 
