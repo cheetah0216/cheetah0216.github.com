@@ -1,6 +1,6 @@
 ---
 layout: post
-title: English Quotes
+title: "English Quotes"
 category: english
 tags: [english]
 description: |

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从零开始:基础英语1
+title: "从零开始:基础英语1"
 category: english
 tags: [english]
 description: |
