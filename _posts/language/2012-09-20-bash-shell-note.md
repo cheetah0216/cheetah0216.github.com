@@ -96,7 +96,7 @@ description: |
 ###得到目录地址
 {% highlight bash %}
    test="/home/usr/bash/test.c"
-   ${test%/^} (将^替换)^-->*
+   ${test%/*} 
 
    result:
    /home/usr/bash
@@ -105,7 +105,7 @@ description: |
 ###得到文件类型/后缀名
 {% highlight bash %}
     filename="/home/test/temp.cpp"
-    echo ${filename##^.} (将^替换)^-->*
+    echo ${filename##*.} 
     
     result: 
     cpp
@@ -114,11 +114,10 @@ description: |
 ###bash 前后缀操作
 {% highlight bash %}
     filename="/home/test/temp.foo.tar.gzip"
-    echo ${filename##^.} 
-    echo ${filename#^.} 
-    echo ${filename%%.^}
-    echo ${filename%.^}
-    (将^替换)^-->*
+    echo ${filename##*.} 
+    echo ${filename#*.} 
+    echo ${filename%%.*}
+    echo ${filename%.*}
 {% endhighlight %}
 
 ###遍历给定目录下的所有文件(不支持递归)
