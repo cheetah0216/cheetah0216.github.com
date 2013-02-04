@@ -80,7 +80,7 @@ description: |
 ###得到文件名
 {% highlight bash %}
     test="/home/usr/bash/test.c"
-    ${test##^/} (将^替换)^-->*
+    ${test##*/}
 
     result:
     test.c
