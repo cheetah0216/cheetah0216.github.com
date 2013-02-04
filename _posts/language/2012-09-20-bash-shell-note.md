@@ -130,6 +130,12 @@ description: |
     done  
 {% endhighlight %}
 
+###判断字串
+{% highlight bash %}
+   ! $list =~ $str ( str不再list中)
+{% endhighlight %}
+
+
 ##bash实例-awk，cut，sed，grep
 ###得到最新文件名
 {% highlight bash %}
