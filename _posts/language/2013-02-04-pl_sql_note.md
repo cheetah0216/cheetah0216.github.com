@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PL/SQL学习笔记"
+title: "实例学PL/SQL"
 category: language
 tags: [language]
 description: |
@@ -8,5 +8,5 @@ description: |
 ---
 {% include JB/setup %}
 
-[PL/SQL学习笔记](http://liufei.name/language/pl_sql_note.html)
+[实例学PL/SQL](http://liufei.name/language/pl_sql_note.html)
 
