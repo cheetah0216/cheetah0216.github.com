@@ -62,6 +62,13 @@ description: |
 **`Ctrl+X Ctrl+U` 用户自定义补全方式**  
 **`Ctrl+X Ctrl+S` 拼写建议**  
 
+##单文件编译执行
+**`<F9> :SCCompile`**  
+**`<F10> :SCCompileRun`**  
+**`:SCViewResult`** 查看程序输出  
+**`:SCChooseCompiler`** 选择编译器  
+**`:cope`** 查看错误信息  
+
 ##Vim Plugin
 [taglist](http://www.vim.org/scripts/script.php?script_id=273)  
 列出了当前文件中的所有宏, 全局变量, 函数名等，类似source Insight左边的Symbol窗口.  
@@ -87,5 +94,5 @@ description: |
 MarkDown语法高亮.  
 [NERD_commenter](http://www.vim.org/scripts/script.php?script_id=1218)  
 提供快速注释/反注释代码块的功能.  
-
-
+[SingleCompile](https://github.com/xuhdev/SingleCompile)  
+单个文件编译执行,支持多种类型(c,c++,python,bash..)  
