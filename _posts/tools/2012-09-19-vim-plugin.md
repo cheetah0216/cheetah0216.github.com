@@ -65,9 +65,9 @@ description: |
 ##单文件编译执行
 **`<F9> :SCCompile`**  
 **`<F10> :SCCompileRun`**  
-**`:SCViewResult`** 查看程序输出  
-**`:SCChooseCompiler`** 选择编译器  
-**`:cope`** 查看错误信息  
+**`:SCViewResult` 查看程序输出**  
+**`:SCChooseCompiler` 选择编译器**  
+**`:cope` 查看错误信息**  
 
 ##Vim Plugin
 [taglist](http://www.vim.org/scripts/script.php?script_id=273)  

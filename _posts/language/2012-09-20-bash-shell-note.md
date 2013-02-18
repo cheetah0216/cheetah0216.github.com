@@ -118,6 +118,12 @@ description: |
     echo ${filename#*.} 
     echo ${filename%%.*}
     echo ${filename%.*}
+
+    output:
+    gzip
+    foo.tar.gzip
+    /home/test/temp
+    /home/test/temp.foo.tar
 {% endhighlight %}
 
 ###遍历给定目录下的所有文件(不支持递归)
@@ -155,9 +161,8 @@ description: |
 
 ###读取文件的某一行
 {% highlight bash %}
-    #-n 取消默认输出
     #1p,输出第一行
-    sed -n `1p` ~/file
+    sed -n 1p ~/file
 {% endhighlight %}
 
 ###sed 在文件的指定行插入文本
@@ -168,6 +173,12 @@ description: |
     temp="5i"
     sed -i "$temp\\$Str1\n$Str2\n$Str3\n$Str4\n$Str5\n" $filename
 {% endhighlight %}
+
+###sed 删除空行
+{% highlight bash %}
+    sed '/^$/d' file 
+{% endhighlight %}
+
 
 ###大小写替换
 {% highlight bash %}
@@ -183,6 +194,28 @@ description: |
 {% highlight bash %}
     tail -f filename
 {% endhighlight %}
+
+##bash-判断
+###文件判断
+{% highlight bash %}
+    -b     当file存在并且是块文件时返回真
+    -c     当file存在并且是字符文件时返回真
+    -d     当pathname存在并且是一个目录时返回真
+    -e     当pathname指定的文件或目录存在时返回真
+    -f     当file存在并且是正规文件时返回真
+    -g     当由pathname指定的文件或目录存在并且设置了SGID位时返回为真
+    -h     当file存在并且是符号链接文件时返回真，该选项在一些老系统上无效
+    -k     当由pathname指定的文件或目录存在并且设置了“粘滞”位时返回真
+    -p     当file存在并且是命令管道时返回为真
+    -r     当由pathname指定的文件或目录存在并且可读时返回为真
+    -s     当file存在文件大小大于0时返回真
+    -t     file当文件描述符(默认为1)指定的设备为终端时为真
+    -u     当由pathname指定的文件或目录存在并且设置了SUID位时返回真
+    -w     当由pathname指定的文件或目录存在并且可执行时返回真。一个目录为了它的内容被访问必然是可执行的。
+    -o     当由pathname指定的文件或目录存在并且被子当前进程的有效用户ID所指定的用户拥有时返回真。
+    -x     file用户可执行为真
+{% endhighlight %}
+
 
 ##bash实例-数组,循环
 ###for循环

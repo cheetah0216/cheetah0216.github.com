@@ -14,5 +14,6 @@ description: |
 **`Ctrl-z`    : 后台执行**  
 **`fg`        : 切换到前台执行**  
 
-
+##Chrome 技巧
+**`data:text/html, <html contenteditable>`: 在地址栏输入,将标签页变成记事本**
 

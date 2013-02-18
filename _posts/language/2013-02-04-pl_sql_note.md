@@ -2,7 +2,7 @@
 layout: post
 title: "实例学PL/SQL"
 category: language
-tags: [language]
+tags: [sql]
 description: |
   PL/SQL (Procedural Language/Structured Query Language) is Oracle Corporation's procedural extension language for SQL and the Oracle relational database. 
 ---
