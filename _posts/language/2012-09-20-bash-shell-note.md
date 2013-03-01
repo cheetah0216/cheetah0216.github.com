@@ -179,6 +179,11 @@ description: |
     sed '/^$/d' file 
 {% endhighlight %}
 
+###sed remove <feff> character
+{% highlight bash %}
+   sed '1s/^.//' $gNoteTemp > $tmpDir
+{% endhighlight %}
+
 
 ###大小写替换
 {% highlight bash %}
