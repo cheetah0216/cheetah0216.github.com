@@ -19,7 +19,7 @@ Ee: E is for easy.
 Ff: F is for fun.  
 Gg: G is for giving.  
 Hh: H is for happiness.  
-Ii: I is for innovation.
+Ii: I is for innovation.  
 Jj: J is fot joy.
 
 ##Sentence1
@@ -30,7 +30,7 @@ let's keep our dreams alive.
 Take it easy and enjoy your life.  
 It is in giving that we recevice.  
 Happiness is nothing more than good health and a bad memory.  
-Innovation is the ability to see change as an opportunity.创新意识就是把改变视为机遇.
+Innovation is the ability to see change as an opportunity.创新意识就是把改变视为机遇.  
 A thing of beauty is a joy for ever.
 
 ##Sentence2
@@ -47,7 +47,7 @@ All rise!
 Enjoy yourself.  
 Speak out loud!  
 Watch out!  
-Poor boy!
+Poor boy!  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -71,5 +71,5 @@ Michael Jackson was my favourite singer.
 Lady gaga is gaga about music.  
 What day is today?  
 Can I join the club?  
-I hope so.
-I travel by air.
+I hope so.  
+I travel by air.  
