@@ -33,8 +33,8 @@ Take it easy and enjoy your life.
 It is in giving that we recevice.  
 Happiness is nothing more than good health and a bad memory.  
 Innovation is the ability to see change as an opportunity.创新意识就是把改变视为机遇.  
-A thing of beauty is a joy for ever.
-kindess is the language which the deaf can hear and the blind can see.  
+A thing of beauty is a joy for ever.  
+kindess is the language which the deaf can hear and the blind can see.    
 Love is a sweeet torment.  
 
 ##Sentence2
