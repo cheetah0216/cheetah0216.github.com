@@ -21,6 +21,8 @@ Gg: G is for giving.
 Hh: H is for happiness.  
 Ii: I is for innovation.  
 Jj: J is fot joy.
+Kk: K is for findness.  
+Ll: L is fot love.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -32,6 +34,8 @@ It is in giving that we recevice.
 Happiness is nothing more than good health and a bad memory.  
 Innovation is the ability to see change as an opportunity.创新意识就是把改变视为机遇.  
 A thing of beauty is a joy for ever.
+kindess is the language which the deaf can hear and the blind can see.  
+Love is a sweeet torment.  
 
 ##Sentence2
 Zip you lips.  
@@ -48,6 +52,10 @@ Enjoy yourself.
 Speak out loud!  
 Watch out!  
 Poor boy!  
+Please come wite me.  
+Beat it!  
+Take it easy.  
+Tell me why!
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -73,3 +81,6 @@ What day is today?
 Can I join the club?  
 I hope so.  
 I travel by air.  
+Believe me!
+what do you do. 
+we went to a dance the other day.  
