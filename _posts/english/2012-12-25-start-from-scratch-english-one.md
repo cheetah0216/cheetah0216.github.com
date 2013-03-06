@@ -20,9 +20,11 @@ Ff: F is for fun.
 Gg: G is for giving.  
 Hh: H is for happiness.  
 Ii: I is for innovation.  
-Jj: J is fot joy.
+Jj: J is for joy.
 Kk: K is for findness.  
-Ll: L is fot love.  
+Ll: L is for love.  
+Mm: M is for memory.  
+Nn: N is for Nostalgia.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -35,7 +37,9 @@ Happiness is nothing more than good health and a bad memory.
 Innovation is the ability to see change as an opportunity.创新意识就是把改变视为机遇.  
 A thing of beauty is a joy for ever.  
 kindess is the language which the deaf can hear and the blind can see.    
-Love is a sweeet torment.  
+Love is a sweet torment.  
+Every man's memory is the private literature.  
+Nostalgia is like a grammar lesson:you find the present tense,but the past perfect.  
 
 ##Sentence2
 Zip you lips.  
@@ -56,6 +60,8 @@ Please come wite me.
 Beat it!  
 Take it easy.  
 Tell me why!
+care will kill a cat.  
+Go ahead.  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -84,3 +90,6 @@ I travel by air.
 Believe me!
 what do you do. 
 we went to a dance the other day.  
+I have caught a cole.  
+you are so sweet.  
+I want a raise.  
