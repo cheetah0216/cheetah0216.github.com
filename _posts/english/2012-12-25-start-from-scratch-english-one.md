@@ -20,7 +20,7 @@ Ff: F is for fun.
 Gg: G is for giving.  
 Hh: H is for happiness.  
 Ii: I is for innovation.  
-Jj: J is for joy.
+Jj: J is for joy.  
 Kk: K is for findness.  
 Ll: L is for love.  
 Mm: M is for memory.  
