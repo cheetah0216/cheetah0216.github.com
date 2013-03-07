@@ -25,6 +25,8 @@ Kk: K is for findness.
 Ll: L is for love.  
 Mm: M is for memory.  
 Nn: N is for Nostalgia.  
+Oo: O is for Outlook.  
+Pp: P is for patience.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -40,6 +42,8 @@ kindess is the language which the deaf can hear and the blind can see.
 Love is a sweet torment.  
 Every man's memory is the private literature.  
 Nostalgia is like a grammar lesson:you find the present tense,but the past perfect.  
+we need to have a tolerant outlook on life.  
+patience is the companion of wisdom.  
 
 ##Sentence2
 Zip you lips.  
@@ -62,6 +66,9 @@ Take it easy.
 Tell me why!  
 care will kill a cat.  
 Go ahead.  
+It is my pleasure.  
+As usual.  
+check it out!  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -93,3 +100,7 @@ we went to a dance the other day.
 I have caught a cole.  
 you are so sweet.  
 I want a raise.  
+show time.  
+I'm short of money.  
+I'm joking.  
+Every Jack has his Jill.  
