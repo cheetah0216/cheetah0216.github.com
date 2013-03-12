@@ -27,6 +27,8 @@ Mm: M is for memory.
 Nn: N is for Nostalgia.  
 Oo: O is for Outlook.  
 Pp: P is for patience.  
+Qq: Q is for Question.  
+Rr: R is for Regret.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -44,6 +46,8 @@ Every man's memory is the private literature.
 Nostalgia is like a grammar lesson:you find the present tense,but the past perfect.  
 we need to have a tolerant outlook on life.  
 patience is the companion of wisdom.  
+He who questions nothing learns noting.  
+Forget regret, or life is yours to miss.  
 
 ##Sentence2
 Zip you lips.  
@@ -69,6 +73,9 @@ Go ahead.
 It is my pleasure.  
 As usual.  
 check it out!  
+Try your best.  
+Are you nuts?  
+Deeds, No words!  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -104,3 +111,6 @@ show time.
 I'm short of money.  
 I'm joking.  
 Every Jack has his Jill.  
+There is too much traffic on the road.  
+You'd better dress up.  
+put your hards in the air.  
