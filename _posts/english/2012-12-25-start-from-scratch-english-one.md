@@ -29,6 +29,8 @@ Oo: O is for Outlook.
 Pp: P is for patience.  
 Qq: Q is for Question.  
 Rr: R is for Regret.  
+Ss: S is for share.  
+Tt: T is for Teamwork.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -48,6 +50,8 @@ we need to have a tolerant outlook on life.
 patience is the companion of wisdom.  
 He who questions nothing learns noting.  
 Forget regret, or life is yours to miss.  
+There is no delight in owning anything unshared.  
+Teamwork divides the task and doubles the success.  
 
 ##Sentence2
 Zip you lips.  
@@ -76,6 +80,8 @@ check it out!
 Try your best.  
 Are you nuts?  
 Deeds, No words!  
+so that?  
+Don't away from me.  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -114,3 +120,5 @@ Every Jack has his Jill.
 There is too much traffic on the road.  
 You'd better dress up.  
 put your hards in the air.  
+Let's talk face to face.  
+I never ever want to see you again.  
