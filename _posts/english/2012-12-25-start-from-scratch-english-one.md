@@ -33,6 +33,10 @@ Ss: S is for share.
 Tt: T is for Teamwork.  
 Uu: U is for Unity.  
 Vv: V is for victory.  
+Ww: W is for Wealth.  
+Xx: X is for X.  
+Yy: Y is for YaHoo!  
+Zz: Z is for ZARA.  
 
 ##Sentence1
 smile when it hurts most.  
@@ -54,6 +58,12 @@ He who questions nothing learns noting.
 Forget regret, or life is yours to miss.  
 There is no delight in owning anything unshared.  
 Teamwork divides the task and doubles the success.  
+United we stand,Divded we Fall!  
+victory is sweet when you've know defeat!  
+Abilty is a poor man's wealth.  
+Curiosity is the wick in the candle of learning.  
+In youth we learn.In age we understand.  
+Nevery lose you zeal. 
 
 ##Sentence2
 Zip you lips.  
@@ -84,6 +94,11 @@ Are you nuts?
 Deeds, No words!  
 so that?  
 Don't away from me.  
+Hold on.Please  
+A little of everything,nothing at all.  
+No big deal.  
+Mind your step.  
+It's never too late to learn.  
 
 ##Sentence3
 I'll be on holiday next week.  
@@ -124,3 +139,10 @@ You'd better dress up.
 put your hards in the air.  
 Let's talk face to face.  
 I never ever want to see you again.  
+I can handle this.    
+I know nothing about him.  
+Let's go it together.  
+Don't laugh at me.  
+Let's sing on English song.  
+It's a long story. 
+I wiil be back right away.  
