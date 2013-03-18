@@ -144,5 +144,5 @@ I know nothing about him.
 Let's go it together.  
 Don't laugh at me.  
 Let's sing on English song.  
-It's a long story. 
-I wiil be back right away.  
+It's a long story.   
+I will be back right away.  
