@@ -31,6 +31,8 @@ Qq: Q is for Question.
 Rr: R is for Regret.  
 Ss: S is for share.  
 Tt: T is for Teamwork.  
+Uu: U is for Unity.  
+Vv: V is for victory.  
 
 ##Sentence1
 smile when it hurts most.  
