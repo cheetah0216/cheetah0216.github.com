@@ -49,6 +49,9 @@ description: |
 **`F3`: 本文件查找**  
 **`F4`: 全局查找**  
 
+##文件切换(h/c) shortcut-key
+**`F12`: a.h/a.c 文件切换**    
+
 ##补全 shortcut-key
 **`Ctrl+X Ctrl+L` 整行补全**  
 **`Ctrl+X Ctrl+N` 根据当前文件里关键字补全**  
