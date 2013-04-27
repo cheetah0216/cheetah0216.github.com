@@ -120,6 +120,7 @@ locate 查找文件
 slocate 查找文件或目录  
 whereis 查找文件  
 which 查找文件  
+lsof list open files,查看打开该文件的程序
 
 ##文本操作
 vi/vim  
