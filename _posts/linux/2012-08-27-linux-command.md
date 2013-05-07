@@ -107,6 +107,7 @@ comm 比较两个以排序的文件，结果分为3列
 diff 比较文件的差异  
 diffstat 根据diff的比较结果，现实统计字数  
 test 用于检测系统文件及其相关属性
+cksum  outputs the file's CRC checksum and byte count. 可用于检查两个文件是否一样
 
 ##文件查找
 egrep 查找文件里符合条件的字符串  
