@@ -115,6 +115,12 @@
     <description>English for computer science</description>
   </item>
 
+  <item>
+    <title>Oracle PL/SQL By Example</title>
+    <link>http://liufei.name/language/oracle-pl-sql-by-example.html</link>
+    <description>Oracle PL/SQL By Example</description>
+  </item>
+
 </channel>
 
 </rss>
