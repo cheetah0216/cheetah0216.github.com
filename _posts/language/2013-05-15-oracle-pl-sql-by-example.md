@@ -29,11 +29,11 @@ Compares two applications. The first application uses four independent SQL state
 
 ##1.2 PL/SQL Block Structure
 All PL/SQL programs are combined into blocks.   
-
+  
 **PL/SQL blocks can be divided into two groups: named and anonymous.**  
 Named PL/SQL blocks are used when creating subroutines. These subroutines are procedures, functions, and packages. The subroutines then can be stored in the database and referenced by their names later. In addition, subroutines such as procedures and functions can be defined within the anonymous PL/SQL block. These subroutines exist as long as this block executes and cannot be referencedoutside the block.  
-
-**PL/SQL blocks contain three sections: the declaration section, the executable section, and the exception-handling section.**
+  
+**PL/SQL blocks contain three sections: the declaration section, the executable section, and the exception-handling section.**  
 The executable section is the only mandatory section of the block.The declaration and exception-handling sections are optional.   
 As a result,a PL/SQL block has the following structure:  
 {% highlight sql %}
@@ -50,6 +50,10 @@ the keyword END. Example:
 {% highlight sql %}
 DECLARE   v_first_name VARCHAR2(35);   v_last_name VARCHAR2(35);BEGIN   SELECT first_name, last_name     INTO v_first_name, v_last_name     FROM student    WHERE student_id = 123;      DBMS_OUTPUT.PUT_LINE ('Student name: '||v_first_name||' '||v_last_name);EXCEPTION   WHEN NO_DATA_FOUND THEN      DBMS_OUTPUT.PUT_LINE ('There is no student with '||'student id 123');END;
 {% endhighlight %}
-
+  
+***How PL/SQL Gets Executed***
+Every time an anonymous PL/SQL block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. A named PL/SQL block is compiled only at the time of its creation, or if it has been changed. The compilation process includes syntax checking, binding, and p-code generation.  
+<li>anonymous block:When the block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. </li>
+<li>named block:compiled only at the time of its creation,or if it has been changed.</li>
 
 
