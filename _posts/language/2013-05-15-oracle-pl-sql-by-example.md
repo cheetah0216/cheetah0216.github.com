@@ -51,7 +51,7 @@ the keyword END. Example:
 DECLARE   v_first_name VARCHAR2(35);   v_last_name VARCHAR2(35);BEGIN   SELECT first_name, last_name     INTO v_first_name, v_last_name     FROM student    WHERE student_id = 123;      DBMS_OUTPUT.PUT_LINE ('Student name: '||v_first_name||' '||v_last_name);EXCEPTION   WHEN NO_DATA_FOUND THEN      DBMS_OUTPUT.PUT_LINE ('There is no student with '||'student id 123');END;
 {% endhighlight %}
   
-***How PL/SQL Gets Executed***
+**How PL/SQL Gets Executed**   
 Every time an anonymous PL/SQL block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. A named PL/SQL block is compiled only at the time of its creation, or if it has been changed. The compilation process includes syntax checking, binding, and p-code generation.  
 <li>anonymous block:When the block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. </li>
 <li>named block:compiled only at the time of its creation,or if it has been changed.</li>
