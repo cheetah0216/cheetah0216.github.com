@@ -184,6 +184,16 @@ description: |
    sed '1s/^.//' $gNoteTemp > $tmpDir
 {% endhighlight %}
 
+###sed 在行首添加字符串"@@"
+{% highlight bash %}
+    sed "s/^/@@/g" file
+{% endhighlight %}
+
+###sed 打印匹配字符串的项
+{% highlight bash %}
+    #".proc"
+    sed -n '/\.proc$/p' file
+{% endhighlight %}
 
 ###大小写替换
 {% highlight bash %}

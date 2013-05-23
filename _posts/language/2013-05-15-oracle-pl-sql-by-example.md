@@ -55,5 +55,10 @@ DECLARE   v_first_name VARCHAR2(35);   v_last_name VARCHAR2(35);BEGIN   SELE
 Every time an anonymous PL/SQL block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. A named PL/SQL block is compiled only at the time of its creation, or if it has been changed. The compilation process includes syntax checking, binding, and p-code generation.  
 <li>anonymous block:When the block is executed, the code is sent to the PL/SQL engine on the server, where it is compiled. </li>
 <li>named block:compiled only at the time of its creation,or if it has been changed.</li>
-
+  
+**What steps are included in the compilation process of a PL/SQL block?**
+The compilation process includes syntax checking,binding,and p-code generation.  
+Syntax checking involves checking PL/SQL code for compilation errors.After syntax errors have been corrected,a storage address is assigned to the variables that are used to hold data for Oracle.This process is called binding.Next,p-codeis generated for the PL/SQL block.P-code is a list of instructions to the PL/SQL engine.For named blocks,p-code is stored in the database,and it is used the next time the program is executed.  
+  
+##1.3 PL/SQL in SQL*Plus
 
