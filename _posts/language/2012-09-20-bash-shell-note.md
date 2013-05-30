@@ -232,7 +232,7 @@ description: |
 {% endhighlight %}
 
 
-##bash实例-数组,循环
+##bash实例-循环
 ###for循环
 {% highlight bash %}
     names=( Jennifer Tonya Anna Sadie )
@@ -273,6 +273,13 @@ description: |
 #    echo "Welcome $x times"
 #    x=$(( $x + 1 ))
 #  done
+{% endhighlight %}
+
+##bash实例-数组
+###bash添加元素到已存在的数组
+{% highlight bash %}
+    #Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');
+    #Unix=("${Unix[@]}" "AIX" "HP-UX")
 {% endhighlight %}
 
 ###bash中将字符串split成数组
