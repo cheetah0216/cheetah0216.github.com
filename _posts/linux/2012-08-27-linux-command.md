@@ -106,7 +106,7 @@ cmp 比较两个文件是否有差异（返回第一个有差异的地方）
 comm 比较两个以排序的文件，结果分为3列  
 diff 比较文件的差异  
 diffstat 根据diff的比较结果，现实统计字数  
-test 用于检测系统文件及其相关属性
+test 用于检测系统文件及其相关属性  
 cksum  outputs the file's CRC checksum and byte count. 可用于检查两个文件是否一样
 
 ##文件查找
