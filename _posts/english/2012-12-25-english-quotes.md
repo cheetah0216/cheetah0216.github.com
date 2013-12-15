@@ -20,3 +20,5 @@ description: |
 **It's not who you are underneath, it's what you do that defines you.**   
 **waiting for life is waiting to die.**  
 **The only way to learn a new programming language is by writing programs in it.**  
+**The happiest of people do not necessarily have the best of everything,The just make the most of everything they have.**  
+
