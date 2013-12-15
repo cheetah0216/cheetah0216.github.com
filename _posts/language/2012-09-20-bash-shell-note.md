@@ -363,6 +363,7 @@ description: |
     # $* ：和$@相同，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组。
 {% endhighlight %}
 
+###
 ###bash 输入变量
 {% highlight bash %}
     read -p "Enter your name:" name
