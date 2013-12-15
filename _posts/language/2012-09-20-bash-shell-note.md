@@ -61,6 +61,12 @@ description: |
 {% endhighlight %}
 
 ##bash实例-字符串操作
+###字符串替换
+{% highlight bash %}
+   #使用$replacement, 代替所有匹配的$substring
+   ${string//substring/replacement} 
+{% endhighlight %}
+
 ###得到字符串长度
 {% highlight bash %}
     RPMName=$1
@@ -163,6 +169,12 @@ description: |
 {% highlight bash %}
     #1p,输出第一行
     sed -n 1p ~/file
+{% endhighlight %}
+
+###删除文件的某一行
+{% highlight bash %}
+    #1p,输出第一行,改变原始文件-i
+    sed "1p" ~/file
 {% endhighlight %}
 
 ###sed 在文件的指定行插入文本
