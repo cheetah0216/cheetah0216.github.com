@@ -10,6 +10,13 @@ description: |
 
 [实例学PL/SQL](http://liufei.name/language/pl_sql_note.html)
 
+##PL/SQL Reserved Words and Keywords
+###IS / AS / DECLARE / BEGIN / EXCEPTION / END
+The procedure body begins with the keyword IS (or AS) and ends with the keyword END followed by an optional procedure name.  
+The procedure body has three parts: a declarative part, an executable part, and an optional exception-handling part.  
+The declarative part contains local declarations, which are placed between the keywords IS and BEGIN. The keyword DECLARE, which introduces declarations in an anonymous PL/SQL block, is not used.  
+The executable part contains statements, which are placed between the keywords BEGIN and EXCEPTION (or END).  
+At least one statement must appear in the executable part of a procedure. The NULL statement meets this requirement. The exception-handling part contains exception handlers, which are placed between the keywords EXCEPTION and END.  
 
 ##Get a table description
 ###Method 1
@@ -31,6 +38,12 @@ description: |
     WHERE table_name = 'TABLENAME';
 {% endhighlight %}
 
+##SQL DISTINCT
+In a table, a column may contain many duplicate values; and sometimes you only want to list the different (distinct) values.  
+The DISTINCT keyword can be used to return only distinct (different) values.  
+{% highlight sql %}
+    SELECT DISTINCT column_name,column_name FROM table_name;
+{% endhighlight %}
 
 ##SQL Alias
 ##SQL Distinct
