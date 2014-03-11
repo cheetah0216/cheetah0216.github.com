@@ -207,6 +207,23 @@ description: |
     sed -n '/\.proc$/p' file
 {% endhighlight %}
 
+###sed 删除含指定字符串的行
+{% highlight bash %}
+    #删除file中含"hello"的行，但不改变file件本身，操作之后的结果在终端显示
+    sed -e '/hello/d'  file
+    #删除file中含"hello"的行，将操作之后的结果保存到result
+    sed -e '/hello/d'  file  > result
+    #删除含字符串"hello"或“world"的行，将结果保存到result
+    sed '/hello/d;/world/d' file > result
+    #其中，"hello"也可以用正则表达式来代替。
+{% endhighlight %}
+
+###awk 删除非连续重复行
+{% highlight bash %}
+    #删除非连续的重复行
+    #awk '!a[$0]++'  file
+{% endhighlight %}
+
 ###大小写替换
 {% highlight bash %}
     echo "ABcd" | tr A-Z a-z
