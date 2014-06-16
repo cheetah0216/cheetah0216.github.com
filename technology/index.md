@@ -25,10 +25,3 @@ title: "技术文档 &amp; 学习笔记"
   {% include custom/pages_reversed %}
 </ul>
 
-## 4 - 工具
-
-<ul class="thumbnails">
-  {% assign pages_icons = site.categories.tools%}
-  {% include custom/pages_reversed %}
-</ul>
-
