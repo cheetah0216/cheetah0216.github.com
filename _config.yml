@@ -12,8 +12,8 @@ topbar:
     url : '/technology/index.html'
     title : '技术系列'
   -
-    url : '/self-management/index.html'
-    title : '自我管理'
+    url : '/tools/index.html'
+    title : '系统工具'
   -
     url : '/thinking/index.html'
     title : '思维思考'
