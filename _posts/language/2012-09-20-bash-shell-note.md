@@ -224,6 +224,17 @@ description: |
     #awk '!a[$0]++'  file
 {% endhighlight %}
 
+###grep 得到文件匹配行的前/后N行
+{% highlight bash %}
+    grep -B 2 str file
+    grep -A 2 str file 
+{% endhighlight %}
+
+###去掉重复的行
+{% highlight bash %}
+    cat file | sort | uniq
+{% endhighlight %}
+
 ###大小写替换
 {% highlight bash %}
     echo "ABcd" | tr A-Z a-z
