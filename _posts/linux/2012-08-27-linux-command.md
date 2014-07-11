@@ -53,11 +53,14 @@ export 设置或显示环境变量
 halt 关闭系统  
 shutdown 关机  
 reboot 重启  
-uname -a 显示系统信息  
 procinfo 显示系统状态  
 free 查看内存状态  
 finger 查找并显示用户信息 
 lsb_release 显示linux发行版的相关信息  
+cat /etc/redhat-release 显示系统版本号等信息
+cat /proc/version 显示系统版本号等信息
+cat /etc/issue 显示系统版本号等信息
+uname -a 显示系统信息  
 last 列出当前与过去登录系统的用户相关信息   
 dmesg 显示开机信息，开机信息也存储在/var/log/dmesg  
 mesg 设置终端的写入权限  
