@@ -410,6 +410,17 @@ description: |
     echo "Hello $name, Welcome to my blog!"
 {% endhighlight %}
 
+###xargs 使用
+{% highlight bash %}
+cat blacklist | xargs -I {} ./bactchblack {}
+{% endhighlight %}
+
+###sort
+{% highlight bash %}
+cat blacklist | sort | uniq
+{% endhighlight %}
+
+
 ##bash 输入输出重定向
 ###文件描述符
 {% highlight bash %}
